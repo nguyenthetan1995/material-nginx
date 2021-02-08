@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  baselayoutmaterial:
+    image: baselayoutmaterial
+    build:
+      context: .
+      dockerfile: ./Dockerfile
